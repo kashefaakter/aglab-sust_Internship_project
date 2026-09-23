@@ -1,59 +1,119 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## AG-Lab SUST — Output & Publication Management System
+A Laravel web application built during my internship at the Laboratory of Genomics and Transcriptomics (AG-Lab), SUST. It adds a database-driven Outputs / Publications section to the lab website (aglab-sust.com), together with a secure admin panel for managing the entries.
+## Project Overview
+The AG-Lab Publication Management System is designed to organize and present the laboratory's research publications in a structured and user-friendly way.
 
-## About Laravel
+The application contains two main parts:
+### Public Website
+- AG-Lab SUST branded homepage(optional)
+- Publications / Research Outputs section
+- Year-wise publication browsing
+- Publication search
+- Year filtering
+- Publication details
+- Authors, journal, citation and DOI information
+- External publication links
+- PDF publication access
+- Responsive design
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Admin Panel
+- Secure administrator authentication
+- Professional dashboard
+- Publication management
+- Add publications
+- Edit publications
+- Delete publications
+- Search and filter publications
+- Published/Draft status management
+- DOI and external URL management
+- PDF upload and replacement
+- Publication statistics
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Main Features
+### Public Publication Portal
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The `/outputs` section acts as the main public publication entry point.
 
-## Learning Laravel
+Users can:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- Browse published research outputs
+- Search publications by title, author, journal or DOI
+- Filter publications by year
+- Browse publications year-wise
+- View detailed publication information
+- Access DOI links
+- Visit external publication URLs
+- View/download uploaded PDF files
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Draft publications are not displayed on the public website.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Admin Dashboard
 
-### Premium Partners
+Administrators can access:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Total publications
+- Published publications
+- Draft publications
+- Latest publication year
+- Recent publications
+- Year-wise publication statistics
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Publication Management
 
-## Code of Conduct
+Each publication can contain:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Title
+- Authors
+- Journal / Conference
+- Publication year
+- Publication type
+- Publication status
+- DOI
+- Publication URL
+- Abstract
+- Citation
+- PDF file
 
-## Security Vulnerabilities
+Supported publication types include:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Research Article
+- Review Article
+- Conference Paper
+- Book Chapter
+- Other
 
-## License
+Publication status:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Published
+- Draft
+
+## Technology Stack
+### Backend
+
+- PHP
+- Laravel 12
+- MySQL
+- Laravel Eloquent ORM
+- Laravel Breeze Authentication
+
+### Frontend
+
+- Blade Templates
+- HTML5
+- CSS3
+- JavaScript
+- Responsive UI
+
+### Development Environment
+
+- XAMPP
+- Apache
+- MySQL
+- Composer
+- Node.js / npm
+- Git / GitHub
